@@ -3,10 +3,29 @@ body, html {
   font-family: 'Tillana', cursive;
 }
 
+body {
+  position: relative;
+}
+
+.container {
+  width: 1280px;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  /*left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);*/
+}
+
 #navbar {
   box-shadow: 0px 6px 6px rgba(108, 108, 109, 0.2);
   height: 50px;
-  width: 97%;
+  width: 1220px;
+  position: absolute;
+  left: 20px;
+  /*left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);*/
 }
 
  #library {
@@ -20,28 +39,39 @@ body, html {
    float: right;
  }
 
- .course {
-   margin-top: 20px;
-   width: 45%;
-   background: white;
-   overflow: auto;
-   border-radius: 5px;
-   box-shadow: 0px 6px 6px rgba(108, 108, 109, 0.2);
-   color: #5a5a5a;
- }
+.top-row {
+  float: left;
+}
 
- .buttons h5 {
-   border: 2px solid lightgrey;
-   border-radius: 50px;
-   padding-left: 10px;
-   padding-top: 5px;
-   padding-bottom: 5px;
-   float: left;
- }
+.bottom-row{
+  float: left;
+}
 
- .course-title {
-   font-size: 20px;
- }
+.course {
+ margin-left: -80px;
+ margin-right: 100px;
+ margin-top: 20px;
+ width: 600px;
+ background: white;
+ overflow: auto;
+ border-radius: 5px;
+ box-shadow: 0px 6px 6px rgba(108, 108, 109, 0.2);
+ color: #5a5a5a;
+ /*float: left;*/
+}
+
+.buttons h5 {
+ border: 2px solid lightgrey;
+ border-radius: 50px;
+ padding-left: 10px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ float: left;
+}
+
+.course-title {
+ font-size: 20px;
+}
 
 .course-icons {
   float: right;
@@ -51,14 +81,15 @@ body, html {
 .course-body {
   padding: 20px;
 }
-#java-button {
-  width: 45px;
-  color: #2c9676;
-}
 
 #intermediate {
   width: 103px;
   margin-left: 7px;
+}
+
+#java-button {
+  width: 45px;
+  color: #2c9676;
 }
 
 #java-header {
@@ -73,6 +104,50 @@ body, html {
 }
 
 #java-header h5 {
+  float: right;
+  padding-right: 20px;
+  color: white;
+}
+
+#django-button {
+  width: 61px;
+  color: #f092b0;
+}
+
+#django-header {
+  background: #f092b0;
+  height: 60px;
+  width: 100%;
+}
+
+#django-header img {
+  float: left;
+  padding-left: 20px;
+}
+
+#django-header h5 {
+  float: right;
+  padding-right: 20px;
+  color: white;
+}
+
+#wordpress-button {
+  width: 87px;
+  color: #838cc7;
+}
+
+#wordpress-header {
+  background: #838cc7;
+  height: 60px;
+  width: 100%;
+}
+
+#wordpress-header img {
+  float: left;
+  padding-left: 20px;
+}
+
+#wordpress-header h5 {
   float: right;
   padding-right: 20px;
   color: white;
