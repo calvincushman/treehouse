@@ -1,6 +1,6 @@
 body, html {
   background: #edeff0;
-  font-family: 'Baloo Bhaina', cursive;
+  font-family: 'Tillana', cursive;
 }
 
 #navbar {
@@ -10,7 +10,7 @@ body, html {
 }
 
  #library {
-   color: #302f2e;
+   color: #5a5a5a;
    margin-top: 0;
    margin-left: 1%;
    float: left;
@@ -19,3 +19,61 @@ body, html {
  #nav-icons {
    float: right;
  }
+
+ .course {
+   margin-top: 20px;
+   width: 45%;
+   background: white;
+   overflow: auto;
+   border-radius: 5px;
+   box-shadow: 0px 6px 6px rgba(108, 108, 109, 0.2);
+   color: #5a5a5a;
+ }
+
+ .buttons h5 {
+   border: 2px solid lightgrey;
+   border-radius: 50px;
+   padding-left: 10px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   float: left;
+ }
+
+ .course-title {
+   font-size: 20px;
+ }
+
+.course-icons {
+  float: right;
+  padding-top: 18px;
+}
+
+.course-body {
+  padding: 20px;
+}
+#java-button {
+  width: 45px;
+  color: #2c9676;
+}
+
+#intermediate {
+  width: 103px;
+  margin-left: 7px;
+}
+
+#java-header {
+  background: #2c9676;
+  height: 60px;
+  width: 100%;
+}
+
+#java-header img {
+  float: left;
+  padding-left: 20px;
+}
+
+#java-header h5 {
+  float: right;
+  padding-right: 20px;
+  color: white;
+}
