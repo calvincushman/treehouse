@@ -109,6 +109,42 @@ body {
   color: white;
 }
 
+.hover-float {
+  float: right;
+  margin-top: 20px;
+}
+
+#hover:hover + .pop-up-magic {
+  display:block;
+}
+
+.pop-up-magic {
+  display: none;
+}
+
+#pop-up {
+  position: absolute;
+  width: 300px;
+  border: 1px solid lightgrey;
+  background: white;
+  border-radius: 8px;
+  padding-left: 10px;
+  left: 220px;
+  top: 135px;
+}
+
+.arrow {
+  border-right: solid lightgrey 1px;
+  border-bottom: solid lightgrey 1px;
+  background: white;
+  height: 20px;
+  width: 20px;
+  transform: rotate(45deg);
+  margin-left: 480px;
+  margin-top: 5px;
+  position: absolute;
+}
+
 #django-button {
   width: 61px;
   color: #f092b0;
