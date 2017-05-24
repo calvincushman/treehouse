@@ -1,0 +1,21 @@
+body, html {
+  background: #edeff0;
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+#navbar {
+  box-shadow: 0px 6px 6px rgba(108, 108, 109, 0.2);
+  height: 50px;
+  width: 97%;
+}
+
+ #library {
+   color: #302f2e;
+   margin-top: 0;
+   margin-left: 1%;
+   float: left;
+ }
+
+ #nav-icons {
+   float: right;
+ }
